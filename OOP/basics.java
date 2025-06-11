@@ -2,12 +2,15 @@ package OOP;
 
 import static OOP.ONE.newfile;
 
-public class basics {
+public class basics  extends ONE{
     public static void main(String[] args) {
         
         detail st1 = new detail();
         System.out.println("hello Students:  " + st1.name  );
         newfile();
+
+        // ONE obj = new ONE();
+        // obj.getCreator();
     }
 }
 class detail {

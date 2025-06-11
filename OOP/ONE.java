@@ -2,6 +2,14 @@ package OOP;
 
 public class ONE {
 
+
+    // use of grtter and setter for final key words 
+    // final  String creator = "jay";
+    // public String getCreator() {
+    //     System.out.println("creator is  : "+creator);
+    //     return creator;
+    // }
+
     static String name = "lucifer ";
     static int age ;
 
