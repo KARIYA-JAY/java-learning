@@ -14,10 +14,10 @@ public class Twosum {
 
     public static void main (String args[]){
 
-        int[] arr = {0,10 ,20, 20 ,30 ,40 , 0};
-        int destination  = 40 ; 
+        int[] arr = {3,7,-3,11} ;
+        int destination  =  0; 
 
-        // Twosum(arr, destination);
+        //  Twosum(arr, destination);
    
         List<int[]> res = optimalTwosum(arr, destination);
         if(res.isEmpty()){
