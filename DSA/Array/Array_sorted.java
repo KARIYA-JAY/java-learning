@@ -2,10 +2,11 @@ package Array;
 
 public class Array_sorted {
     public static void main(String args[]){
-        int arr[] = { 45,7,89,5};
-        int arr2[] = {5,8,9,45,55};
-        check(arr2);
+        int arr[] = {45,7,89,5};
+        int arr2[] = {3,4,5,1,2};
+        reverse(arr2, 0, 4);
         
+       
     }
     public static int check(int arr[]){
 
@@ -19,4 +20,14 @@ public class Array_sorted {
          System.out.println("sorted");
         return 1;
     }
+    public static void reverse(int arr[] ,int  left , int right){
+        while(left<right){
+            int temp = arr[left];
+                arr[left] = arr[right];
+                arr[right] = temp;
+                left++;
+                right--;
+        }
+    } 
+
 }

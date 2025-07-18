@@ -15,9 +15,10 @@ public class Lrgest_no {
 
         for(int j = 1 ; j < arr.length - 1  ; j++){
 
-            if(largest < arr[j]){
-                largest = arr[j];
-            }
+            // if(largest < arr[j]){
+            //     largest = arr[j];
+            // }
+            largest = Math.max(largest, arr[j]);
         }
         
         System.out.println("Largest number of array is :" + largest);
