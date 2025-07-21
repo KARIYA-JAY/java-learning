@@ -21,7 +21,6 @@ public class RemoveDuplicateArray {
                 arr[k] = arr[i];
             }
         }
-
         return k+1;
     }
 }

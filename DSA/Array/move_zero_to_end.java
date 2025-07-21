@@ -3,7 +3,7 @@ package Array;
 public class move_zero_to_end {
     
     public static void main(String[] args){
-        int arr[] = { 1,5,7};
+        int arr[] = {1,5,7};
          int res[] = MoveEnd(arr);
 
          for(int ress : res){
