@@ -128,22 +128,22 @@ public class pattern2 {
         // sc.close();
 
     //     //3
-    //     pattern3();
+        pattern3();
 
     //     //4
-    //     pattern4();
+        pattern4();
         
 
     //     //2
-    //     pattern2();
+        pattern2();
 
     
     //    //5 
-    //    pattern5();
+       pattern5();
        
 
     //     // 6 
-    //     pattern6();
+        pattern6();
     pattern9();
     
 

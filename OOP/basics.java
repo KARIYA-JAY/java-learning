@@ -1,6 +1,5 @@
 package OOP;
 
-import static OOP.ONE.newfile;
 
 public class basics  extends ONE{
     public static void main(String[] args) {

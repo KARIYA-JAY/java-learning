@@ -14,7 +14,7 @@ public class Missing_num {
         int n = arr.length;
         int[] hash = new int[n+1];
         
-        for(int i = 0 ; i < n -1; i++ ){
+        for(int i = 0 ; i < n-1; i++ ){
             hash[arr[i]]++;  
         }
 

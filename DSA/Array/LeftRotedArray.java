@@ -12,9 +12,7 @@ public class LeftRotedArray {
 
     public static int[] LeftRoted(int arr[]){
 
-        int n = arr.length;
-        int key = 1;
-        
+        rev(arr, 0, 0);
         return arr;
     }
     public static void rev(int arr[],int start,int end){

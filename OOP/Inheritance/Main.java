@@ -13,7 +13,6 @@ public class Main {
 
 
         // child c1 = new child(12,"jay",78.6,"abad ");
-        
         // System.out.println("name is :"+ c1.name);
 
 

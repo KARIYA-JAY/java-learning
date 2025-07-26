@@ -13,7 +13,7 @@ public class overiding {
         humen h1 = new humen();
         animal a1 = new animal();
 
-        overiding obj = new humen(); // override the main method . 
+        overiding obj = new overiding(); // override the main method . 
 
         h1.age();;
         a1.age();

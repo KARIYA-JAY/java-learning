@@ -1,6 +1,6 @@
 package OOP.Abstraction;
 
-public class useAbstract{
+public class useAbstract {
 
     // @Override
     // void men(String name){

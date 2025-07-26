@@ -10,6 +10,8 @@ public class ONE {
     //     return creator;
     // }
 
+    
+
     static String name = "lucifer ";
     static int age ;
 
@@ -35,7 +37,6 @@ public class ONE {
 
     // this block initiliaze only once when the class is lodead or object created . 
     static{
-
         // name="jay";
         age = 45;
     }
