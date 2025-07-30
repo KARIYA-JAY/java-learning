@@ -14,4 +14,15 @@ public class PalindromString {
         if(s.charAt(i)!=s.charAt(n-i-1)) return false;
         return palindrom(i+1,s);
     }
+    public static void way2(String str) {
+        
+    String cleaned = str.replaceAll("[^a-zA-Z0-9]","").toLowerCase();
+    String reversed = new StringBuilder(cleaned).reverse().toString();
+        if (cleaned.equals(reversed)) {
+                    System.out.println("Palindrome");
+                } else {
+                    System.out.println("Not a palindrome");
+                }
+        
+    }
 }
