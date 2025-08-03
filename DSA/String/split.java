@@ -8,7 +8,7 @@ public class split {
         String sec = " Split me I am here .";
 
         String arr[] = sec.split(" ");
-
+        
         for (String string : arr) {
             if(string.length() > 3){
             List<String> l1 = new ArrayList<>();
@@ -16,7 +16,6 @@ public class split {
             System.out.print(l1);
             }
         }
-        
     }
     
 }

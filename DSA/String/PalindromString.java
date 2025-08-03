@@ -4,9 +4,10 @@ public class PalindromString {
 
     public static void main(String arge[]){
 
-    String name="MaioaM";
+    String name="a men isi nem a : ";
     boolean ans = palindrom(0,name);
     System.out.println(ans);
+    way2(name);
     }
     public static  boolean palindrom(int i,String s){
         int n = s.length();

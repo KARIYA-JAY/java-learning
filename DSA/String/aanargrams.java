@@ -7,7 +7,7 @@ public class aanargrams {
     public static void main(String[] args) {
         
         String name = "jay";
-        String name1 = "yakj";
+        String name1 = "yaj";
 
         char ch[] = name.toCharArray();
         char ch1[] = name1.toCharArray();

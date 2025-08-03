@@ -19,7 +19,7 @@ public class Factorial {
     }
 
       public static int revfact(int n){
-        if(n<=0) return 1; // this is base condition. here we don't return the whole function understand jay.
+        if(n<=0) return 1; // this is base condition. here we don't return the whole function 
         return n*revfact(n-1); // here is the real game start in recursion :)
     }
 }
